@@ -1,0 +1,14 @@
+{
+  "title": "option column omitted",
+  "input": {
+    "WHERE": {
+      "GT": {
+        "courses_avg": 97
+      }
+    },
+    "OPTIONS": {
+    }
+  },
+  "errorExpected": true,
+  "with": "InsightError"
+}

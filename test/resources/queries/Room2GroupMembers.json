@@ -1,0 +1,35 @@
+{
+	"title": "Room With 2 group members",
+	"input":{
+		"WHERE": {
+
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"rooms_fullname",
+				"maxSeats"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"maxSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname",
+				"rooms_fullname"
+			],
+			"APPLY": [
+				{
+					"maxSeats": {
+						"MAX": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"with":[{"rooms_shortname":"WOOD","rooms_fullname":"Woodward (Instructional Resources Centre-IRC)","maxSeats":503},{"rooms_shortname":"OSBO","rooms_fullname":"Robert F. Osborne Centre","maxSeats":442},{"rooms_shortname":"CIRS","rooms_fullname":"Centre for Interactive  Research on Sustainability","maxSeats":426},{"rooms_shortname":"HEBB","rooms_fullname":"Hebb","maxSeats":375},{"rooms_shortname":"ESB","rooms_fullname":"Earth Sciences Building","maxSeats":350},{"rooms_shortname":"LSC","rooms_fullname":"Life Sciences Centre","maxSeats":350},{"rooms_shortname":"WESB","rooms_fullname":"Wesbrook","maxSeats":325},{"rooms_shortname":"SRC","rooms_fullname":"Student Recreation Centre","maxSeats":299},{"rooms_shortname":"SCRF","rooms_fullname":"Neville Scarfe","maxSeats":280},{"rooms_shortname":"BUCH","rooms_fullname":"Buchanan","maxSeats":275},{"rooms_shortname":"CHEM","rooms_fullname":"Chemistry","maxSeats":265},{"rooms_shortname":"ANGU","rooms_fullname":"Henry Angus","maxSeats":260},{"rooms_shortname":"HENN","rooms_fullname":"Hennings","maxSeats":257},{"rooms_shortname":"FSC","rooms_fullname":"Forest Sciences Centre","maxSeats":250},{"rooms_shortname":"PHRM","rooms_fullname":"Pharmaceutical Sciences Building","maxSeats":236},{"rooms_shortname":"BIOL","rooms_fullname":"Biological Sciences","maxSeats":228},{"rooms_shortname":"GEOG","rooms_fullname":"Geography","maxSeats":225},{"rooms_shortname":"MATH","rooms_fullname":"Mathematics","maxSeats":224},{"rooms_shortname":"LSK","rooms_fullname":"Leonard S. Klinck (also known as CSCI)","maxSeats":205},{"rooms_shortname":"CHBE","rooms_fullname":"Chemical and Biological Engineering Building","maxSeats":200},{"rooms_shortname":"MCML","rooms_fullname":"MacMillan","maxSeats":200},{"rooms_shortname":"SWNG","rooms_fullname":"West Mall Swing Space","maxSeats":190},{"rooms_shortname":"FRDM","rooms_fullname":"Friedman Building","maxSeats":160},{"rooms_shortname":"DMP","rooms_fullname":"Hugh Dempster Pavilion","maxSeats":160},{"rooms_shortname":"IBLC","rooms_fullname":"Irving K Barber Learning Centre","maxSeats":154},{"rooms_shortname":"AERL","rooms_fullname":"Aquatic Ecosystems Research Laboratory","maxSeats":144},{"rooms_shortname":"MCLD","rooms_fullname":"MacLeod","maxSeats":136},{"rooms_shortname":"MATX","rooms_fullname":"Mathematics Annex","maxSeats":106},{"rooms_shortname":"CEME","rooms_fullname":"Civil and Mechanical Engineering","maxSeats":100},{"rooms_shortname":"IONA","rooms_fullname":"Iona Building","maxSeats":100},{"rooms_shortname":"FNH","rooms_fullname":"Food, Nutrition and Health","maxSeats":99},{"rooms_shortname":"ALRD","rooms_fullname":"Allard Hall (LAW)","maxSeats":94},{"rooms_shortname":"LASR","rooms_fullname":"Frederic Lasserre","maxSeats":94},{"rooms_shortname":"ANSO","rooms_fullname":"Anthropology and Sociology","maxSeats":90},{"rooms_shortname":"ORCH","rooms_fullname":"Orchard Commons","maxSeats":72},{"rooms_shortname":"BRKX","rooms_fullname":"Brock Hall Annex","maxSeats":70},{"rooms_shortname":"SOWK","rooms_fullname":"Jack Bell Building for the School of Social Work","maxSeats":68},{"rooms_shortname":"SPPH","rooms_fullname":"School of Population and Public Health","maxSeats":66},{"rooms_shortname":"FORW","rooms_fullname":"Frank Forward","maxSeats":63},{"rooms_shortname":"UCLL","rooms_fullname":"The Leon and Thea Koerner University Centre","maxSeats":55},{"rooms_shortname":"EOSM","rooms_fullname":"Earth and Ocean Sciences - Main","maxSeats":50},{"rooms_shortname":"PCOH","rooms_fullname":"Ponderosa Commons: Oak House","maxSeats":40},{"rooms_shortname":"MGYM","rooms_fullname":"War Memorial Gymnasium","maxSeats":40},{"rooms_shortname":"AUDX","rooms_fullname":"Auditorium Annex","maxSeats":21}]
+}

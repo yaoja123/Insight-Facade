@@ -1,0 +1,2514 @@
+{
+  "title": "Should fulfill star in front",
+  "input": {
+    "WHERE": {
+      "OR": [
+        {
+          "AND": [
+            {
+              "GT": {
+                "courses_avg": 90
+              }
+            },
+            {
+              "IS": {
+                "courses_dept": "*c"
+              }
+            }
+          ]
+        },
+        {
+          "EQ": {
+            "courses_avg": 95
+          }
+        }
+      ]
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept",
+        "courses_id",
+        "courses_avg"
+      ],
+      "ORDER": "courses_avg"
+    }
+  },
+  "errorExpected": false,
+  "with": [
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 90.03
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "540",
+      "courses_avg": 90.05
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.05
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "349",
+      "courses_avg": 90.06
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "349",
+      "courses_avg": 90.06
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.07
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.07
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "535",
+      "courses_avg": 90.08
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "535",
+      "courses_avg": 90.08
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.08
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "510",
+      "courses_avg": 90.08
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 90.09
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 90.1
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 90.1
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "521",
+      "courses_avg": 90.1
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "521",
+      "courses_avg": 90.1
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "527",
+      "courses_avg": 90.11
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "527",
+      "courses_avg": 90.11
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.14
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.14
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 90.14
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.15
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.15
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "111",
+      "courses_avg": 90.15
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 90.17
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 90.18
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "164",
+      "courses_avg": 90.19
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 90.19
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "526",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "526",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "512",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "512",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 90.2
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 90.21
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.21
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.22
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 90.22
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "249",
+      "courses_avg": 90.25
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "249",
+      "courses_avg": 90.25
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.25
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 90.25
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 90.25
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "509",
+      "courses_avg": 90.25
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "509",
+      "courses_avg": 90.25
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 90.26
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 90.27
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 90.27
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "449",
+      "courses_avg": 90.27
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "449",
+      "courses_avg": 90.27
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "540",
+      "courses_avg": 90.27
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 90.27
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 90.29
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 90.29
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "540",
+      "courses_avg": 90.3
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "449",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "449",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "536",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "536",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "511",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "511",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "509",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "509",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 90.33
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.35
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.36
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 90.37
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.37
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.38
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 90.39
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.39
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "510",
+      "courses_avg": 90.4
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 90.41
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.41
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 90.43
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 90.43
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "508",
+      "courses_avg": 90.44
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 90.44
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.45
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 90.47
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "505",
+      "courses_avg": 90.5
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "540",
+      "courses_avg": 90.5
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.5
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.5
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "513",
+      "courses_avg": 90.5
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "513",
+      "courses_avg": 90.5
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.53
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.53
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "540",
+      "courses_avg": 90.53
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "540",
+      "courses_avg": 90.53
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.55
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "111",
+      "courses_avg": 90.56
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "540",
+      "courses_avg": 90.57
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 90.57
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "521",
+      "courses_avg": 90.57
+    },
+    {
+      "courses_dept": "bioc",
+      "courses_id": "521",
+      "courses_avg": 90.57
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 90.58
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.6
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 90.6
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 90.6
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.62
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "111",
+      "courses_avg": 90.62
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 90.63
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 90.63
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.64
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 90.65
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 90.65
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 90.65
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "587",
+      "courses_avg": 90.67
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "502",
+      "courses_avg": 90.67
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "502",
+      "courses_avg": 90.67
+    },
+    {
+      "courses_dept": "nrsc",
+      "courses_id": "549",
+      "courses_avg": 90.67
+    },
+    {
+      "courses_dept": "nrsc",
+      "courses_id": "549",
+      "courses_avg": 90.67
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "520",
+      "courses_avg": 90.67
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "520",
+      "courses_avg": 90.67
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 90.69
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "349",
+      "courses_avg": 90.7
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "349",
+      "courses_avg": 90.7
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 90.7
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.71
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "522",
+      "courses_avg": 90.71
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "522",
+      "courses_avg": 90.71
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 90.71
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 90.75
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 90.75
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "562",
+      "courses_avg": 90.75
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "562",
+      "courses_avg": 90.75
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "513",
+      "courses_avg": 90.75
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "513",
+      "courses_avg": 90.75
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.75
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 90.76
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 90.77
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 90.77
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 90.77
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.78
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.78
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 90.78
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "249",
+      "courses_avg": 90.8
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "249",
+      "courses_avg": 90.8
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "587",
+      "courses_avg": 90.83
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "530",
+      "courses_avg": 90.83
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "530",
+      "courses_avg": 90.83
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 90.86
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 90.86
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 90.88
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "540",
+      "courses_avg": 90.89
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 90.89
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.89
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.89
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 90.9
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.9
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.9
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 90.9
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 90.91
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 90.93
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 90.95
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 90.96
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 90.97
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "587",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "509",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "505",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "598",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "546",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "546",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "542",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "542",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 91
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 91.09
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.09
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 91.1
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 91.1
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 91.17
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 91.17
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 91.17
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.18
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 91.21
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.22
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.22
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "540",
+      "courses_avg": 91.22
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "540",
+      "courses_avg": 91.22
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "527",
+      "courses_avg": 91.22
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "527",
+      "courses_avg": 91.22
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 91.23
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.23
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "530",
+      "courses_avg": 91.25
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "530",
+      "courses_avg": 91.25
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "445",
+      "courses_avg": 91.25
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "445",
+      "courses_avg": 91.25
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "503",
+      "courses_avg": 91.27
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "503",
+      "courses_avg": 91.27
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.27
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.27
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 91.29
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 91.3
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.3
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "542",
+      "courses_avg": 91.33
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "542",
+      "courses_avg": 91.33
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.33
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "540",
+      "courses_avg": 91.35
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 91.35
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "505",
+      "courses_avg": 91.36
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 91.36
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 91.38
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 91.38
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "501",
+      "courses_avg": 91.4
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 91.4
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 91.41
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 91.42
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.42
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.43
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 91.43
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "500",
+      "courses_avg": 91.44
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "500",
+      "courses_avg": 91.44
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 91.48
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "587",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "505",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "542",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "542",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "531",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "531",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "562",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "562",
+      "courses_avg": 91.5
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 91.53
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 91.53
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 91.56
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.58
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "560",
+      "courses_avg": 91.6
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "560",
+      "courses_avg": 91.6
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 91.6
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 91.6
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 91.6
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 91.6
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 91.6
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.61
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.69
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.7
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 91.7
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 91.72
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 91.74
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 91.74
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.74
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.78
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 91.79
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "507",
+      "courses_avg": 91.79
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "507",
+      "courses_avg": 91.79
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "249",
+      "courses_avg": 91.8
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "249",
+      "courses_avg": 91.8
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 91.8
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "531",
+      "courses_avg": 91.8
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 91.81
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 91.81
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 91.83
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 91.83
+    },
+    {
+      "courses_dept": "elec",
+      "courses_id": "271",
+      "courses_avg": 91.83
+    },
+    {
+      "courses_dept": "elec",
+      "courses_id": "271",
+      "courses_avg": 91.83
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.86
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 91.89
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "509",
+      "courses_avg": 91.92
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "509",
+      "courses_avg": 91.92
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 91.94
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.95
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 91.95
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 91.96
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "atsc",
+      "courses_id": "500",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "atsc",
+      "courses_id": "500",
+      "courses_avg": 92
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.05
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 92.05
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 92.06
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 92.06
+    },
+    {
+      "courses_dept": "larc",
+      "courses_id": "541",
+      "courses_avg": 92.07
+    },
+    {
+      "courses_dept": "larc",
+      "courses_id": "541",
+      "courses_avg": 92.07
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 92.21
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.22
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 92.24
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "512",
+      "courses_avg": 92.3
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 92.31
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.35
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.35
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 92.38
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 92.4
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "490",
+      "courses_avg": 92.4
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 92.42
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 92.43
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 92.43
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 92.45
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 92.45
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 92.46
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 92.47
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 92.47
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 92.48
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "543",
+      "courses_avg": 92.5
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "543",
+      "courses_avg": 92.5
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 92.5
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 92.5
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 92.52
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 92.56
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.58
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 92.59
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "305",
+      "courses_avg": 92.63
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "305",
+      "courses_avg": 92.63
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 92.63
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 92.63
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "441",
+      "courses_avg": 92.67
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "441",
+      "courses_avg": 92.67
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.71
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 92.74
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 92.75
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 92.75
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "522",
+      "courses_avg": 92.75
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "522",
+      "courses_avg": 92.75
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 92.75
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 92.75
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 92.76
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 92.76
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.79
+    },
+    {
+      "courses_dept": "larc",
+      "courses_id": "551",
+      "courses_avg": 92.8
+    },
+    {
+      "courses_dept": "larc",
+      "courses_id": "551",
+      "courses_avg": 92.8
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 92.83
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 92.83
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 92.84
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 92.89
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 92.95
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "103",
+      "courses_avg": 93
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 93
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 93
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 93.05
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "163",
+      "courses_avg": 93.06
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "163",
+      "courses_avg": 93.06
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 93.08
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "510",
+      "courses_avg": 93.11
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 93.14
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 93.14
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 93.19
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 93.25
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 93.25
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 93.26
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 93.27
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 93.28
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 93.32
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 93.33
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 93.33
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 93.34
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "163",
+      "courses_avg": 93.35
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "163",
+      "courses_avg": 93.35
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 93.38
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 93.38
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "323",
+      "courses_avg": 93.45
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "323",
+      "courses_avg": 93.45
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "529",
+      "courses_avg": 93.47
+    },
+    {
+      "courses_dept": "eosc",
+      "courses_id": "529",
+      "courses_avg": 93.47
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 93.47
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 93.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 93.5
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 93.5
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "449",
+      "courses_avg": 93.5
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 93.53
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "504",
+      "courses_avg": 93.6
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "504",
+      "courses_avg": 93.6
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 93.6
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 93.64
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 93.64
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 93.7
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 93.75
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 93.75
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 93.75
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 93.75
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 93.78
+    },
+    {
+      "courses_dept": "elec",
+      "courses_id": "205",
+      "courses_avg": 93.88
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 93.89
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 93.89
+    },
+    {
+      "courses_dept": "elec",
+      "courses_id": "205",
+      "courses_avg": 93.91
+    },
+    {
+      "courses_dept": "elec",
+      "courses_id": "205",
+      "courses_avg": 93.93
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 93.95
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 93.95
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "509",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "563",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "532",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "501",
+      "courses_avg": 94
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 94.05
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 94.1
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 94.12
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 94.13
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 94.17
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 94.2
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 94.2
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "103",
+      "courses_avg": 94.25
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "511",
+      "courses_avg": 94.29
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "530",
+      "courses_avg": 94.42
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 94.5
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 94.5
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "503",
+      "courses_avg": 94.5
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "503",
+      "courses_avg": 94.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 94.75
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 94.75
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 94.75
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 94.87
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "500",
+      "courses_avg": 94.88
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 94.94
+    },
+    {
+      "courses_dept": "sowk",
+      "courses_id": "570",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "rhsc",
+      "courses_id": "501",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "obst",
+      "courses_id": "549",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "nurs",
+      "courses_id": "424",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "nurs",
+      "courses_id": "424",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "553",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "mtrl",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "mtrl",
+      "courses_id": "564",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "mtrl",
+      "courses_id": "564",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "math",
+      "courses_id": "532",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "math",
+      "courses_id": "532",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "kin",
+      "courses_id": "500",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "kin",
+      "courses_id": "500",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "kin",
+      "courses_id": "499",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "epse",
+      "courses_id": "682",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "epse",
+      "courses_id": "682",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "epse",
+      "courses_id": "606",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "edcp",
+      "courses_id": "473",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "edcp",
+      "courses_id": "473",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "econ",
+      "courses_id": "516",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "econ",
+      "courses_id": "516",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "crwr",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "crwr",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "crwr",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "crwr",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "crwr",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "crwr",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "crwr",
+      "courses_id": "599",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "589",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "cpsc",
+      "courses_id": "589",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "cnps",
+      "courses_id": "535",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "cnps",
+      "courses_id": "535",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "bmeg",
+      "courses_id": "597",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "bmeg",
+      "courses_id": "597",
+      "courses_avg": 95
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 95.05
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 95.1
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 95.1
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 95.16
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 95.19
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 95.19
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 95.25
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "541",
+      "courses_avg": 95.25
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 95.32
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 95.32
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 95.33
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 95.38
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "531",
+      "courses_avg": 95.63
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "506",
+      "courses_avg": 95.67
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 95.75
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "537",
+      "courses_avg": 95.75
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 95.94
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 95.95
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 95.96
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "533",
+      "courses_avg": 95.96
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 96
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 96
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "501",
+      "courses_avg": 96
+    },
+    {
+      "courses_dept": "apsc",
+      "courses_id": "279",
+      "courses_avg": 96
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 96.47
+    },
+    {
+      "courses_dept": "etec",
+      "courses_id": "521",
+      "courses_avg": 96.47
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "559",
+      "courses_avg": 96.5
+    },
+    {
+      "courses_dept": "musc",
+      "courses_id": "559",
+      "courses_avg": 96.5
+    },
+    {
+      "courses_dept": "psyc",
+      "courses_id": "549",
+      "courses_avg": 97
+    },
+    {
+      "courses_dept": "educ",
+      "courses_id": "500",
+      "courses_avg": 97.5
+    }
+  ]
+}

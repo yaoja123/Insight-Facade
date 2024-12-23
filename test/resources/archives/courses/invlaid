@@ -1,0 +1,13 @@
+
+    "result": [
+        {
+            "tier_eighty_five": 1,
+            "tier_ninety": 5,
+            "Title": "adul educ",
+            "Section": "63a",
+            "Detail": "",
+            "tier_seventy_two": 0,
+            "Other": 0,
+            "Low": 50,
+           // it will not be an valid json
+}

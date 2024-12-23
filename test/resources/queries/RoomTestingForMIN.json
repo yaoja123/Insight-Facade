@@ -1,0 +1,34 @@
+{
+	"title": "Room With MIN APPLY KEY",
+	"input":
+	{
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"rooms_fullname",
+				"minSeats"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"minSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname",
+				"rooms_fullname"
+			],
+			"APPLY": [
+				{
+					"minSeats": {
+						"MIN": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"with":[{"rooms_shortname":"CIRS","rooms_fullname":"Centre for Interactive  Research on Sustainability","minSeats":426},{"rooms_shortname":"SRC","rooms_fullname":"Student Recreation Centre","minSeats":299},{"rooms_shortname":"FRDM","rooms_fullname":"Friedman Building","minSeats":160},{"rooms_shortname":"AERL","rooms_fullname":"Aquatic Ecosystems Research Laboratory","minSeats":144},{"rooms_shortname":"LSC","rooms_fullname":"Life Sciences Centre","minSeats":125},{"rooms_shortname":"MATX","rooms_fullname":"Mathematics Annex","minSeats":106},{"rooms_shortname":"WESB","rooms_fullname":"Wesbrook","minSeats":102},{"rooms_shortname":"CHEM","rooms_fullname":"Chemistry","minSeats":90},{"rooms_shortname":"ESB","rooms_fullname":"Earth Sciences Building","minSeats":80},{"rooms_shortname":"CHBE","rooms_fullname":"Chemical and Biological Engineering Building","minSeats":60},{"rooms_shortname":"HEBB","rooms_fullname":"Hebb","minSeats":54},{"rooms_shortname":"EOSM","rooms_fullname":"Earth and Ocean Sciences - Main","minSeats":50},{"rooms_shortname":"IONA","rooms_fullname":"Iona Building","minSeats":50},{"rooms_shortname":"LSK","rooms_fullname":"Leonard S. Klinck (also known as CSCI)","minSeats":42},{"rooms_shortname":"DMP","rooms_fullname":"Hugh Dempster Pavilion","minSeats":40},{"rooms_shortname":"MCLD","rooms_fullname":"MacLeod","minSeats":40},{"rooms_shortname":"OSBO","rooms_fullname":"Robert F. Osborne Centre","minSeats":39},{"rooms_shortname":"FORW","rooms_fullname":"Frank Forward","minSeats":35},{"rooms_shortname":"HENN","rooms_fullname":"Hennings","minSeats":30},{"rooms_shortname":"UCLL","rooms_fullname":"The Leon and Thea Koerner University Centre","minSeats":30},{"rooms_shortname":"SWNG","rooms_fullname":"West Mall Swing Space","minSeats":27},{"rooms_shortname":"ANSO","rooms_fullname":"Anthropology and Sociology","minSeats":26},{"rooms_shortname":"MATH","rooms_fullname":"Mathematics","minSeats":25},{"rooms_shortname":"MGYM","rooms_fullname":"War Memorial Gymnasium","minSeats":25},{"rooms_shortname":"BRKX","rooms_fullname":"Brock Hall Annex","minSeats":24},{"rooms_shortname":"PCOH","rooms_fullname":"Ponderosa Commons: Oak House","minSeats":24},{"rooms_shortname":"CEME","rooms_fullname":"Civil and Mechanical Engineering","minSeats":22},{"rooms_shortname":"GEOG","rooms_fullname":"Geography","minSeats":21},{"rooms_shortname":"ALRD","rooms_fullname":"Allard Hall (LAW)","minSeats":20},{"rooms_shortname":"AUDX","rooms_fullname":"Auditorium Annex","minSeats":20},{"rooms_shortname":"LASR","rooms_fullname":"Frederic Lasserre","minSeats":20},{"rooms_shortname":"SCRF","rooms_fullname":"Neville Scarfe","minSeats":20},{"rooms_shortname":"BUCH","rooms_fullname":"Buchanan","minSeats":18},{"rooms_shortname":"FSC","rooms_fullname":"Forest Sciences Centre","minSeats":18},{"rooms_shortname":"BIOL","rooms_fullname":"Biological Sciences","minSeats":16},{"rooms_shortname":"ANGU","rooms_fullname":"Henry Angus","minSeats":16},{"rooms_shortname":"ORCH","rooms_fullname":"Orchard Commons","minSeats":16},{"rooms_shortname":"FNH","rooms_fullname":"Food, Nutrition and Health","minSeats":12},{"rooms_shortname":"SOWK","rooms_fullname":"Jack Bell Building for the School of Social Work","minSeats":12},{"rooms_shortname":"SPPH","rooms_fullname":"School of Population and Public Health","minSeats":12},{"rooms_shortname":"WOOD","rooms_fullname":"Woodward (Instructional Resources Centre-IRC)","minSeats":10},{"rooms_shortname":"IBLC","rooms_fullname":"Irving K Barber Learning Centre","minSeats":8},{"rooms_shortname":"PHRM","rooms_fullname":"Pharmaceutical Sciences Building","minSeats":7},{"rooms_shortname":"MCML","rooms_fullname":"MacMillan","minSeats":6}]
+}

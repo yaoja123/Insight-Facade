@@ -1,0 +1,16 @@
+{
+  "errorMsg": "The result is too big. Only queries with a maximum of 5000 results are supported.",
+  "title": "Should reject this sample query that result too large",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses_dept",
+        "courses_avg"
+      ],
+      "ORDER": "courses_avg"
+    }
+  },
+  "errorExpected": true,
+  "with": "ResultTooLargeError"
+}

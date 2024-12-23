@@ -1,0 +1,44 @@
+{
+	"title": "Room With COUNT apply key",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"rooms_furniture": "*Tables*"
+					}
+				},
+				{
+					"GT": {
+						"rooms_seats": 300
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"count"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"count"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"count": {
+						"COUNT": "rooms_href"
+					}
+				}
+			]
+		}
+	},
+	"with":[{"rooms_shortname":"LSC","count":2},{"rooms_shortname":"HEBB","count":1},{"rooms_shortname":"OSBO","count":1}]
+}

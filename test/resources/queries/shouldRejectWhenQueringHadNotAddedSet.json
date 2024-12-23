@@ -1,0 +1,39 @@
+{
+  "errorMsg": "Referenced dataset \"courses1\" not added yet",
+  "title": "Should reject when quering had not added set",
+  "input": {
+    "WHERE": {
+      "OR": [
+        {
+          "AND": [
+            {
+              "GT": {
+                "courses1_avg": 90
+              }
+            },
+            {
+              "IS": {
+                "courses1_dept": "adhe"
+              }
+            }
+          ]
+        },
+        {
+          "EQ": {
+            "courses1_avg": 95
+          }
+        }
+      ]
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "courses1_dept",
+        "courses1_id",
+        "courses1_avg"
+      ],
+      "ORDER": "courses_avg"
+    }
+  },
+  "errorExpected": true,
+  "with": "InsightError"
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<title>Navigate Course </title>
+	<link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+<centre>
+	<h1> UBC Navigator </h1>
+</centre>
+<div class="topBar">
+	<nav>
+		<a href="index.html">Home</a>
+		<a class="active" href="#Course">Course</a>
+		<a href="room.html">Room</a>
+		<a href="query.html">Find</a>
+	</nav>
+</div>
+<div class = "container">
+	<div class = "box">
+		<h2> Add a dataset </h2>
+		<p1> Please fill out the course datasetID below</p1><br><br>
+		<form action="/dataset/:id/:kind">
+			<label for="addCourse">DatasetID:</label>
+			<input type="text" id="addCourse" name="id"><br><br>
+			<label for="kind">Kind:</label>
+			<input type="text" id="kind" name="kind" value="Course"><br><br>
+			<input type="submit" class = "button" value="Add Course Dataset">
+		</form>
+	</div>
+	<div class="box">
+		<h2> Delete a dataset </h2>
+		<form action="/dataset/:id">
+			<p1> Which course dataset you want to delete?</p1><br><br>
+			<label for="deleteID">DatasetID:</label>
+			<input type="text" id="deleteID" name="id"><br><br>
+			<input type="submit" class = "button" value="Delete Course Dataset">
+		</form>
+	</div>
+	<div class="box">
+		<h2> Show all current dataset </h2>
+		<form action="/datasets">
+			<button type="submit" class = "button" value="Show">Show</button>
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="/frontend.js"></script>
+</body>
+</html>

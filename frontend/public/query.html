@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>Navigate Room </title>
+    <link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+<centre>
+    <h1> UBC Navigator </h1>
+</centre>
+<div class="topBar">
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="query.html">Find</a>
+        <a class="active" href="room.html">Find Room</a>
+
+    </nav>
+</div>
+<div class>
+    <div class = "queryBox">
+        <h2> Find GPA Boosters </h2>
+        <form>
+            <p1> Please fill out your department below</p1><br><br>
+            DepartmentID: <input type="text" id="departmentID" value="cpsc"><br><br>
+            <input type="button" class = "button" id= "booster" value="Find Boosters" />     
+        </form>
+    </div>
+    <div class = "queryBox">
+        <h2> Find Best Professors </h2>
+        <form>
+            <p1> Please fill out the course below</p1><br><br>
+            <label for="department">DepartmentID:</label>
+            <input type="text" id="department" name="department" value = "cpsc"><br><br>
+            <label for="course">CourseID:</label>
+            <input type="text" id="course" name="course" value="110"><br><br>
+            <input type="submit" class = "button" id= "professor" value="Find Professors">
+        </form>
+    </div>
+</div>
+<div>
+    <p id='show'></p>
+</div>
+<script type="text/javascript" src="/frontend.js"></script>
+</body>
+</html>
